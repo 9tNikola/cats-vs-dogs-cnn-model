@@ -52,7 +52,7 @@ def load_my_model():
         st.error(f"Error loading model: {e}")
         return None
 
-def preprocess_image(img_path, target_size=(160, 160)):
+def preprocess_image(img_path, target_size=(224, 224)):
     """
     Load and preprocess an image for prediction
     """
